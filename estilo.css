@@ -34,7 +34,10 @@ div{
 div.pie{
     font-style: italic;
 }
-
+div.cuadro{
+    margin: auto;
+    border: white solid 2px;
+}
 p{
     text-align: center;
 }
@@ -43,7 +46,8 @@ p.red{
 }
 h3{
     color: white;
+    text-align: center;
 }
 hr.pq{
-    size: 50%;
+    width: 50%;
 }
