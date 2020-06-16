@@ -34,3 +34,7 @@ div{
 div.pie{
     font-style: italic;
 }
+
+p.red{
+    color: red;
+}
