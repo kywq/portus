@@ -35,6 +35,15 @@ div.pie{
     font-style: italic;
 }
 
+p{
+    text-align: center;
+}
 p.red{
     color: red;
+}
+h3{
+    color: white;
+}
+hr.pq{
+    size: 50%;
 }
