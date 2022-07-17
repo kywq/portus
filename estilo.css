@@ -1,53 +1,72 @@
-html{
-    background-color: #5d0f11;
+html {
+    background-color: #5d0f11e0;
 }
 
-body{
+body {
     width: 60%;
     margin: auto;
 }
-h1{
+
+h1 {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-p{
+
+p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
 }
 
+.botonDiv {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .boton {
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
-    background-color: #2e518b; /*color botón*/
-    color: #ffffff; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 50px; /*bordes redondos*/
+    width: 160px;
+    border: 1px solid #2e518b;
+    padding: 10px;
+    background-color: #2e518b;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div {
     text-align: center;
 }
-div{
-    text-align: center;
-}
-div.pie{
+
+div.pie {
     font-style: italic;
 }
-div.cuadro{
+
+div.cuadro {
     margin: auto;
     border: white solid 2px;
 }
-p{
+
+p {
     text-align: center;
 }
-p.red{
+
+p.red {
     color: red;
 }
-h3{
+
+h3 {
     color: white;
     text-align: center;
 }
-hr.pq{
+
+hr.pq {
     width: 50%;
 }
